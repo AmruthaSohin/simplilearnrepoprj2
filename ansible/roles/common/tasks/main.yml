@@ -1,0 +1,6 @@
+- name: Install basic packages
+  yum:
+    name:
+      - git
+      - unzip
+    state: present
